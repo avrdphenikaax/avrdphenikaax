@@ -1,30 +1,42 @@
-# Dolphin — Autonomous Driving Research at Phenikaa-X
+# AVR | Autonomous Vehicle Research at PhenikaaX
 
-Static project page for the Autonomous Vehicle Research Department.
+Version 1.2. Static website for the Autonomous Vehicle Research Department (AVR).
 
-Published at: https://datvuthanh.github.io/avrd_pnkx/
+Published URL: https://avrdphenikaax.github.io/avrdphenikaax/
+Repository: https://github.com/avrdphenikaax/avrdphenikaax
 
-## Edit the page
+## Update GitHub Pages
 
-- `index.html`: text, team, research directions and video links.
-- `styles.css`: typography, layout and responsive breakpoints.
+Upload the contents of this release to the repository root, including `assets/`.
+Replace matching files; do not place the release in a subfolder and do not upload the ZIP itself.
+GitHub Pages should publish the `main` branch, root folder. No build step is needed.
+Check the completed Pages deployment before refreshing the live website.
+CSS, JavaScript and overview links use `?v=1.2` to refresh cached assets.
+
+## Edit
+
+- `index.html`: department identity, research directions, people, contact and videos.
+- `styles.css`: typography, layout and responsive behaviour.
 - `script.js`: navigation and click-to-load video players.
-- `assets/`: project images and the downloadable research overview.
+- `assets/AVR_Research_Overview.pdf`: matching downloadable overview.
 
-No build step or package installation is required. GitHub Pages serves the root of `main`; `.nojekyll` disables Jekyll processing.
+## Research scope
 
-## Video access
+The page describes ongoing and planned research, not completed results. It includes
+temporal learning and asynchronous inference; efficient E2E models; 4D reconstruction;
+trajectory generation and RL; learning-assisted MPC; VLA; unified driving datasets;
+and closed-loop evaluation/generalization. No publication or comparative performance is claimed.
 
-The E2E video is hosted on Google Drive. Its sharing setting must allow the intended audience to view it. Data visualization, Ocean Park AV, VTV and Hanoi TV videos link to YouTube. Video hosting remains with those services; this repository does not include the video files.
+## Contact and video access
 
-## Research status
+The primary contact uses the company's publicly listed address, contact@phenikaa-x.com.
+Replace it with a verified department mailbox if desired. Existing company domains remain unchanged.
+The E2E video is on Google Drive and must be shared with the intended audience.
+Other videos are hosted on YouTube. Players load on click; external links remain available.
+Original footage and research photographs retain their source content.
 
-E2E driving is an on-vehicle proof of concept. VLA integration and the proposed dual-system architecture are ongoing research directions. The page does not claim published results or production autonomy.
+## v1.2 changes
 
-## Contact
-
-The page identifies the project lead and links to the official company website. Add an approved business email when available.
-
-## v1.1
-
-Updated department name, five videos, source-faithful surround-view image with connection settings removed, broader scene reconstruction research, and a shorter Contact us section.
+Department-first identity, PhenikaaX wordmark, research before demonstrations, eight
+research topics, updated overview PDF, functional contact action, improved responsive
+layout, contrast and keyboard access. Historical unused branding assets were removed.
